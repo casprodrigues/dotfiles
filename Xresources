@@ -50,7 +50,7 @@ xterm*utf8Title:true
 Xcursor.theme: xcursor-breeze
 Xcursor.size:                     0
 
-URxvt.font:                       xft:InconsolataNerdFontMono:pixelsize=14
+URxvt.font:                       xft:InconsolataNerdFont:pixelsize=14
 
 ! alternative font settings with 'terminus':
 ! URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
@@ -88,7 +88,7 @@ URxvt.keysym.Shift-Control-Down:  \033[1;6B
 ! URxvt.keysym.M-C-c:               perl:clipboard:copy
 ! URxvt.keysym.M-v:                 perl:clipboard:paste
 ! URxvt.keysym.M-C-v:               perl:clipboard:paste_escaped
-! URxvt*termName:                   string
+! URxvt*termName:                   rxtv-unicode
 ! URxvt*geometry:                   geometry
 ! URxvt*chdir:                      string
 ! URxvt*loginShell:                 boolean

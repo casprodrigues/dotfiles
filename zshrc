@@ -107,4 +107,11 @@ export EDITOR='nvim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# FZF configuration
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# kitty configuration
+autoload -Uz compinit
+compinit
+# Completion for kitty
+kitty + complete setup zsh | source /dev/stdin
