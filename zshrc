@@ -10,7 +10,7 @@ export ZSH="/home/carlos/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
 POWERLEVEL9K_MODE="nerdfont-complete"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator user dir vcs dir_writable)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir vcs dir_writable)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(virtualenv status command_execution_time) 
 
 # Set list of themes to pick from when loading at random
