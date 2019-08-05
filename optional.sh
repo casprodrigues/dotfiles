@@ -6,7 +6,7 @@ echo -e '\033[0;31mUpdating system...\033[0m'
 #sudo pacman -Syu
 
 echo -e '\033[0;31mInstalling packages...\033[0m'
-sudo pacman -S zsh qutebrowser ranger neovim --needed
+sudo pacman -S zsh qutebrowser ranger neovim kitty --needed
 
 echo -e '\033[0;31mInstalling fonts...\033[0m'
 #git clone https://aur.archlinux.org/nerd-fonts-inconsolata.git .pkg/inconsolata-nerd-font
@@ -22,6 +22,7 @@ echo -e '\033[0;31mInstalling Oh My Zsh Plugins...\033[0m'
 #git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 #git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 #git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
+#git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 echo -e '\033[0;31mInstalling Vim-Plug...\033[0m'
 #curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
