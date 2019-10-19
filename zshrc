@@ -94,6 +94,12 @@ export EDITOR='nvim'
 # else
 #   export EDITOR='mvim'
 # fi
+#
+
+# Aliases
+mkcd() {
+    mkdir $1 && cd $1
+}
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
