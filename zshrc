@@ -101,6 +101,8 @@ mkcd() {
     mkdir $1 && cd $1
 }
 
+alias venv="source venv/bin/activate"
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
